@@ -1,0 +1,55 @@
+.main-component{
+  background: url(/img/backgrond.png);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: dodgerblue;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.navbar__menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__menu__list{
+  margin : 0 10px;
+  padding: 5px
+}
+
+.navbar__menu__list:hover{
+  background-color: rgb(67, 190, 239);
+  border-radius: 5px;
+}
+.main-component{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.main-component img{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(0, 59, 121);
+  border-radius: 50%;
+
+}
+
+.main__title{
+  margin: 15px 0;
+}
+
+.main__subtitle{
+  margin-bottom: 20px;
+}
+
+button{
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
