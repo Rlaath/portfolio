@@ -17,6 +17,10 @@
 .about__contents__content h2{
   margin-bottom: 20px;
 }
+
+..about__contents__content p{
+  text-align: center;
+}
 .content__icon{
   width: 100px;
   height: 100px;
