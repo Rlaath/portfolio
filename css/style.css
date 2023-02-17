@@ -31,3 +31,8 @@ button{
   background-color: inherit;
   cursor: pointer;
 }
+
+.section__common{
+  margin: auto;
+  max-width: 1200px;
+}

@@ -1,5 +1,5 @@
 .home-screen{
-  background: url(../img/backgrond.png);
+  background: url(../img/backgrond.png) center/cover; 
 }
 
 .navbar{
@@ -15,7 +15,13 @@
   display: flex;
   justify-content: space-between;
 }
-
+.navbar__toggle-btn{
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
 .navbar__menu__list{
   margin : 0 10px;
   padding: 5px
@@ -56,4 +62,50 @@ button{
   border: 1px solid rgb(82, 82, 82);
   border-radius: 5px;
   padding: 5px 10px;
+}
+
+
+@media screen and (max-width:728px) {
+  .navbar__toggle-btn{
+    display: block;
+  }
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar__logo{
+    margin-bottom: 5px;
+  }
+
+  .navbar__div{
+    width: 100%;
+  }
+  .navbar__menu{
+    flex-direction: column;
+  }
+
+  .navbar__menu__list{
+    text-align: center;
+    display: none;
+  }
+
+  .about__contents{
+    flex-direction: column;
+  }
+
+  .about__contents__content{
+  margin-bottom: 18px;
+  }
+  #skills{
+    margin-top: 24px;
+  }
+
+  .skills-box{
+    flex-direction: column;
+  }
+
+  .project{
+    flex-grow: 1;
+  }
+
 }
