@@ -1,0 +1,44 @@
+#testimonials{
+  background-color: lightskyblue;
+  padding: 20px;
+}
+.testimonials{
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.testimonial__text{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.testimonial__text span:first-child{
+  margin-bottom: 5px;
+}
+
+.testimonial__text span:last-child a{
+  color: rgb(69, 125, 255);
+}
+.testimonial__avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial__avatar:nth-child(odd){
+  margin-right: 10px;
+}
+
+.testimonial__avatar:nth-child(even){
+  margin-left: 10px;
+}
