@@ -6,6 +6,9 @@
 
 /*screen*/
 @import "main.css";
+@import "about.css";
+@import "skills.css";
+
 
 
 body{
