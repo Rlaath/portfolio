@@ -18,9 +18,10 @@
 .navbar__toggle-btn{
   border: none;
   position: absolute;
-  top: 10px;
+  top: 12px;
   right: 10px;
   display: none;
+  color: black;
 }
 .navbar__menu__list{
   margin : 0 10px;
@@ -58,8 +59,8 @@
   margin-bottom: 20px;
 }
 
-button{
-  border: 1px solid rgb(82, 82, 82);
+.contact_button{
+  border: 1px solid rgb(52, 52, 52);
   border-radius: 5px;
   padding: 5px 10px;
 }

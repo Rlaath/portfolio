@@ -2,7 +2,8 @@
   text-align: center;
 }
 .moWork__buttons_button{
-
+  border: 1px solid rgb(113, 113, 113);
+  border-radius: 8px;
   font-size: 14px;
   padding: 8px 30px;
 }
