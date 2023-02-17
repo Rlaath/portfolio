@@ -1,5 +1,6 @@
 #about{
   padding: 0 20px;
+
 }
 
 .about__contents{
@@ -12,13 +13,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .about__contents__content h2{
   margin-bottom: 20px;
 }
 
-..about__contents__content p{
+.about__contents__content p{
   text-align: center;
 }
 .content__icon{
@@ -40,6 +41,7 @@ font-size: 50px;
 .about__jobs{
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .about__jobs__job{

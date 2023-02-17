@@ -6,11 +6,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: dodgerblue;
+  background-color: inherit;
   padding: 10px 20px;
   font-size: 18px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease-in-out;
+  z-index: 1;
 }
 
+.navbar__dark{
+  background-color: dodgerblue;
+}
 .navbar__menu{
   display: flex;
   justify-content: space-between;
@@ -40,7 +48,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px;
+}
+
+.home-screen{
+  padding-top: 70px;
 }
 
 .main-component img{
