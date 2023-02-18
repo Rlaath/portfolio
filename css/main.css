@@ -56,6 +56,10 @@
   padding-top: 70px;
 }
 
+
+.home__container{
+  text-align: center;
+}
 .main-component img{
   width: 200px;
   height: 200px;
