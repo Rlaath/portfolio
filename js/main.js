@@ -66,3 +66,30 @@ document.addEventListener('scroll', ()=>{
 arrowBtn.addEventListener('click', ()=>{
   scrollIntoView('#home')
 })
+
+// work projects
+
+const workBtnContainer = document.querySelector('.myWork__buttons');
+const projectsContainer = document.querySelector('.myWork__projects');
+const projects = document.querySelectorAll('.project');
+
+workBtnContainer.addEventListener('click', (e)=>{
+  const filter = e.target.dataset.filter || e.target.parentElement.dataset.filter;
+
+  if(filter == null){
+    return;
+  }
+
+  projectsContainer.classList.add('animation-out');
+  
+  projects.forEach((project) => {
+    if(filter === '*' || filter === project.dataset.type){
+      project.classList.remove('invisible')
+    } else{
+      project.classList.add('invisible')
+    }
+  })
+
+
+
+})

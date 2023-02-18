@@ -25,12 +25,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 .myWork__projects{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px 40px;
+}
+
+.invisible{
+  display: none;
 }
 
 .project img{
