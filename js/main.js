@@ -49,3 +49,20 @@ document.addEventListener('scroll',()=>{
 }
 
 )
+
+// arrow button
+
+const arrowBtn = document.querySelector('.arrowBtn')
+
+document.addEventListener('scroll', ()=>{
+  if(scrollY > homeHeight / 2){
+    arrowBtn.classList.add('btnShow')
+  } else {
+    arrowBtn.classList.remove('btnShow')
+  }
+  
+})
+
+arrowBtn.addEventListener('click', ()=>{
+  scrollIntoView('#home')
+})
