@@ -22,6 +22,7 @@
 .navbar__menu{
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 .navbar__toggle-btn{
   border: none;
