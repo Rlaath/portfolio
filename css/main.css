@@ -107,6 +107,12 @@
   display: block;
 }
 
+<<<<<<< Updated upstream
+=======
+section:not(#home){
+  padding-top: 50px;
+}
+>>>>>>> Stashed changes
 
 @media screen and (max-width:728px) {
   .navbar__toggle-btn{
@@ -125,6 +131,7 @@
   }
   .navbar__menu{
     flex-direction: column;
+<<<<<<< Updated upstream
     text-align: center;
     width: 100%;
     display: none;
@@ -134,6 +141,15 @@
   .navbar__menu.open{
     display: block;
   
+=======
+    display: none;
+  }
+  .navbar__menu.open{
+    display: block;
+  }
+  .navbar__menu__list{
+    text-align: center;
+>>>>>>> Stashed changes
   }
 
   .about__contents{
@@ -154,5 +170,15 @@
   .project{
     flex-grow: 1;
   }
+<<<<<<< Updated upstream
 }
 
+=======
+  section:not(#home){
+
+    padding-top: 10px;
+  }
+
+  
+}
+>>>>>>> Stashed changes

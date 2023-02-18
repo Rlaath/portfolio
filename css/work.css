@@ -2,6 +2,7 @@
   text-align: center;
 }
 .moWork__buttons_button{
+  position: relative;
   border: 1px solid rgb(113, 113, 113);
   border-radius: 8px;
   font-size: 14px;
@@ -43,6 +44,9 @@
   max-height:100% ;
 }
 .myWork__count{
+  position: absolute;
+  top: 6px;
+  right: 5px;
   border: 1px solid black;
   border-radius: 50%;
   background-color: rgba(19, 137, 255, 0.826);

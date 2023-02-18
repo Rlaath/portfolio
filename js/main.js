@@ -38,7 +38,7 @@ button.addEventListener('click', ()=>{
 
 function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
-  scrollTo.scrollIntoView({behavior: "smooth",block : "center" ,inline : "center"});
+  scrollTo.scrollIntoView({behavior: "smooth",});
   
 }
 
@@ -99,5 +99,17 @@ function openToggleBtn(){
   navbarMenu.classList.toggle('open')
 }
 
+<<<<<<< Updated upstream
 const toggleBtn = document.querySelector('.navbar__toggle-btn')
 toggleBtn.addEventListener('click', openToggleBtn)
+=======
+})
+
+
+//toggle button
+const toggleBtn = document.querySelector('.navbar__toggle-btn')
+
+toggleBtn.addEventListener('click', ()=>{
+  navbarMenu.classList.toggle('open')
+})
+>>>>>>> Stashed changes
