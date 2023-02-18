@@ -24,9 +24,6 @@
   justify-content: space-between;
   cursor: pointer;
 }
-
-
-
 .navbar__toggle-btn{
   border: none;
   position: absolute;
@@ -107,12 +104,9 @@
   display: block;
 }
 
-<<<<<<< Updated upstream
-=======
 section:not(#home){
   padding-top: 50px;
 }
->>>>>>> Stashed changes
 
 @media screen and (max-width:728px) {
   .navbar__toggle-btn{
@@ -131,17 +125,6 @@ section:not(#home){
   }
   .navbar__menu{
     flex-direction: column;
-<<<<<<< Updated upstream
-    text-align: center;
-    width: 100%;
-    display: none;
-  }
-
-
-  .navbar__menu.open{
-    display: block;
-  
-=======
     display: none;
   }
   .navbar__menu.open{
@@ -149,7 +132,6 @@ section:not(#home){
   }
   .navbar__menu__list{
     text-align: center;
->>>>>>> Stashed changes
   }
 
   .about__contents{
@@ -170,15 +152,14 @@ section:not(#home){
   .project{
     flex-grow: 1;
   }
-<<<<<<< Updated upstream
-}
-
-=======
   section:not(#home){
-
     padding-top: 10px;
   }
 
+  .arrowBtn{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
   
 }
->>>>>>> Stashed changes

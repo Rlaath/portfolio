@@ -93,18 +93,6 @@ workBtnContainer.addEventListener('click', (e)=>{
   })
 })
 
-//toggle button
-
-function openToggleBtn(){
-  navbarMenu.classList.toggle('open')
-}
-
-<<<<<<< Updated upstream
-const toggleBtn = document.querySelector('.navbar__toggle-btn')
-toggleBtn.addEventListener('click', openToggleBtn)
-=======
-})
-
 
 //toggle button
 const toggleBtn = document.querySelector('.navbar__toggle-btn')
@@ -112,4 +100,3 @@ const toggleBtn = document.querySelector('.navbar__toggle-btn')
 toggleBtn.addEventListener('click', ()=>{
   navbarMenu.classList.toggle('open')
 })
->>>>>>> Stashed changes
