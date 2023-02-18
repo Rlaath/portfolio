@@ -24,6 +24,9 @@
   justify-content: space-between;
   cursor: pointer;
 }
+
+
+
 .navbar__toggle-btn{
   border: none;
   position: absolute;
@@ -103,6 +106,8 @@
 .btnShow{
   display: block;
 }
+
+
 @media screen and (max-width:728px) {
   .navbar__toggle-btn{
     display: block;
@@ -120,11 +125,15 @@
   }
   .navbar__menu{
     flex-direction: column;
+    text-align: center;
+    width: 100%;
+    display: none;
   }
 
-  .navbar__menu__list{
-    text-align: center;
-    display: none;
+
+  .navbar__menu.open{
+    display: block;
+  
   }
 
   .about__contents{
@@ -145,5 +154,5 @@
   .project{
     flex-grow: 1;
   }
-
 }
+

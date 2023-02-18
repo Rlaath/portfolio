@@ -25,6 +25,8 @@ navbarMenu.addEventListener('click', (event)=>{
   }
 
   scrollIntoView(link);
+
+  navbarMenu.classList.remove('open')
 });
 
 const button = document.querySelector('.contact_button')
@@ -89,7 +91,13 @@ workBtnContainer.addEventListener('click', (e)=>{
       project.classList.add('invisible')
     }
   })
-
-
-
 })
+
+//toggle button
+
+function openToggleBtn(){
+  navbarMenu.classList.toggle('open')
+}
+
+const toggleBtn = document.querySelector('.navbar__toggle-btn')
+toggleBtn.addEventListener('click', openToggleBtn)
